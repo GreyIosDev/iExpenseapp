@@ -7,18 +7,34 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		386052B92AD8650C00AA40DD /* ExplainingStateProperty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 386052B82AD8650C00AA40DD /* ExplainingStateProperty.swift */; };
+		386052BC2AD8822E00AA40DD /* ShowingAndHidingViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 386052BB2AD8822E00AA40DD /* ShowingAndHidingViews.swift */; };
+		386052BE2AD885C800AA40DD /* DeletingItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = 386052BD2AD885C800AA40DD /* DeletingItems.swift */; };
+		386052C02AD8A37100AA40DD /* StoringUserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 386052BF2AD8A37100AA40DD /* StoringUserData.swift */; };
+		386052C22AD8BE9C00AA40DD /* ArchivingWithCodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 386052C12AD8BE9C00AA40DD /* ArchivingWithCodable.swift */; };
 		38A23E312ACEB61600D27B5C /* iExpenseApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38A23E302ACEB61600D27B5C /* iExpenseApp.swift */; };
 		38A23E332ACEB61600D27B5C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38A23E322ACEB61600D27B5C /* ContentView.swift */; };
 		38A23E352ACEB61700D27B5C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38A23E342ACEB61700D27B5C /* Assets.xcassets */; };
 		38A23E382ACEB61700D27B5C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38A23E372ACEB61700D27B5C /* Preview Assets.xcassets */; };
+		38A9AADE2ADC363A00C7164E /* ExpenseItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38A9AADD2ADC363A00C7164E /* ExpenseItem.swift */; };
+		38A9AAE02ADC368400C7164E /* Expenses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38A9AADF2ADC368400C7164E /* Expenses.swift */; };
+		38A9AAE22ADC3E3400C7164E /* AddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38A9AAE12ADC3E3400C7164E /* AddView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		386052B82AD8650C00AA40DD /* ExplainingStateProperty.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExplainingStateProperty.swift; sourceTree = "<group>"; };
+		386052BB2AD8822E00AA40DD /* ShowingAndHidingViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowingAndHidingViews.swift; sourceTree = "<group>"; };
+		386052BD2AD885C800AA40DD /* DeletingItems.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeletingItems.swift; sourceTree = "<group>"; };
+		386052BF2AD8A37100AA40DD /* StoringUserData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoringUserData.swift; sourceTree = "<group>"; };
+		386052C12AD8BE9C00AA40DD /* ArchivingWithCodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArchivingWithCodable.swift; sourceTree = "<group>"; };
 		38A23E2D2ACEB61600D27B5C /* iExpense.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iExpense.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		38A23E302ACEB61600D27B5C /* iExpenseApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iExpenseApp.swift; sourceTree = "<group>"; };
 		38A23E322ACEB61600D27B5C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		38A23E342ACEB61700D27B5C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		38A23E372ACEB61700D27B5C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		38A9AADD2ADC363A00C7164E /* ExpenseItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseItem.swift; sourceTree = "<group>"; };
+		38A9AADF2ADC368400C7164E /* Expenses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Expenses.swift; sourceTree = "<group>"; };
+		38A9AAE12ADC3E3400C7164E /* AddView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +48,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		386052BA2AD8807C00AA40DD /* Fundamentals */ = {
+			isa = PBXGroup;
+			children = (
+				386052B82AD8650C00AA40DD /* ExplainingStateProperty.swift */,
+				386052BB2AD8822E00AA40DD /* ShowingAndHidingViews.swift */,
+				386052BD2AD885C800AA40DD /* DeletingItems.swift */,
+				386052BF2AD8A37100AA40DD /* StoringUserData.swift */,
+				386052C12AD8BE9C00AA40DD /* ArchivingWithCodable.swift */,
+			);
+			path = Fundamentals;
+			sourceTree = "<group>";
+		};
 		38A23E242ACEB61600D27B5C = {
 			isa = PBXGroup;
 			children = (
@@ -53,6 +81,10 @@
 			children = (
 				38A23E302ACEB61600D27B5C /* iExpenseApp.swift */,
 				38A23E322ACEB61600D27B5C /* ContentView.swift */,
+				38A9AAE12ADC3E3400C7164E /* AddView.swift */,
+				38A9AADD2ADC363A00C7164E /* ExpenseItem.swift */,
+				38A9AADF2ADC368400C7164E /* Expenses.swift */,
+				386052BA2AD8807C00AA40DD /* Fundamentals */,
 				38A23E342ACEB61700D27B5C /* Assets.xcassets */,
 				38A23E362ACEB61700D27B5C /* Preview Content */,
 			);
@@ -137,6 +169,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				386052BE2AD885C800AA40DD /* DeletingItems.swift in Sources */,
+				386052C22AD8BE9C00AA40DD /* ArchivingWithCodable.swift in Sources */,
+				38A9AAE22ADC3E3400C7164E /* AddView.swift in Sources */,
+				386052B92AD8650C00AA40DD /* ExplainingStateProperty.swift in Sources */,
+				38A9AADE2ADC363A00C7164E /* ExpenseItem.swift in Sources */,
+				386052BC2AD8822E00AA40DD /* ShowingAndHidingViews.swift in Sources */,
+				386052C02AD8A37100AA40DD /* StoringUserData.swift in Sources */,
+				38A9AAE02ADC368400C7164E /* Expenses.swift in Sources */,
 				38A23E332ACEB61600D27B5C /* ContentView.swift in Sources */,
 				38A23E312ACEB61600D27B5C /* iExpenseApp.swift in Sources */,
 			);
